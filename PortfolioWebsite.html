@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Samyukta Kannan - Portfolio Website</title>
+        <link rel="stylesheet" href="PWstyle.css">
+        <script src="https://kit.fontawesome.com/379e4102f1.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="C:\\Users\\HP\\Downloads\\Logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Samyukta</span></h1>
+        </div>
+    </div>
+</div>
+
+<!-- --------about------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="C:\\Users\\HP\\Downloads\\image.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Student at PSG College of Technology.<br>An organized and prompt individual desiring to learn and work for an organization that would allow me to prove myself and help develop my true potential as a working creative.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                    <div class="tab-links" onclick="opentab('education')">Education</div>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span style="color: #b54769">Languages:</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python, C, C++, MySQL, R</li>
+                        <li><span style="color: #b54769">Tools & Platforms:</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figma, Linux OS</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span style="color: #b54769">April 2023-Present</span><br>Software Developer Intern at Kilofarms Private Limited</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span style="color: #b54769">PSG College of Technology, Coimbatore</span><br>MSc Theoretical Computer Science (2021-2026)</li>
+                        <li><span style="color: #b54769">PSG Public Schools, Coimbatore</span><br>XII-Higher Secondary, CBSE (2019-2020)</li>
+                        <li><span style="color: #b54769">PSG Public Schools, Coimbatore</span><br>AISSE, CBSE (2017-2018)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------certifications---------- -->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="certifications-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Foundations of User<br>Experience-UX Design</h2>>
+                <p>Certified by Google</p>
+                <a href="https://coursera.org/share/59ed4a411efb0d9d93eb4bb8355f1011">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Problem Solving (Intermediate)</h2>>
+                <p>Certified by Hackerrank</p>
+                <a href="https://www.hackerrank.com/certificates/363c9883405d">learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-paper-plane"></i>
+                <h2>AI, Empathy & Ethics</h2>>
+                <p>Certified by University of California, Santa Cruz</p>
+                <a href="https://coursera.org/share/66abe4024532e1129007d10c352f7c6e">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="projects">
+                <img src = "C:\\Users\\HP\\Downloads\\NetflixCLone\\1.png">
+                <div class="layer">
+                    <h3>Netflix Clone</h3>
+                    <p>Python, MySQL, and Streamlit have been used to create a simplified version of Netflix clone that has functionalities similar to the actual Netflix web app.</p>
+                    <a href="https://github.com/samyuktaakannan/Netflix-Clone"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src = "C:\\Users\\HP\\Downloads\\NetflixCLone\\2.png">
+                <div class="layer">
+                    <h3>Developing RESTful API</h3>
+                    <p>User database interaction via REST API using Gin framework. Client sends HTTP requests, server routes and updates database.</p>
+                    <a href="https://github.com/samyuktaakannan/Developing-RESTful-API"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src = "C:\\Users\\HP\\Downloads\\NetflixCLone\\3.png">
+                <div class="layer">
+                    <h3>Memory Pool Management</h3>
+                    <p>The memory pool management system project in C++ efficiently allocates and deallocates memory blocks, reducing overhead and fragmentation, resulting in optimized memory utilization and improved performance.</p>
+                    <a href="https://github.com/samyuktaakannan/Memory-Pool-Management"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -------------contact-------------- -->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> samyukta606@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/samyukta-k/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="C:\\Users\\HP\\Downloads\\Samyukta K - Resume (2).pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Samyukta.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tablink of tabcontents){
+            tablink.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
